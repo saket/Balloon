@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="someString" format="string" />
+    <attr name="someDimension" format="dimension" />
+    <attr name="someAttr" format="dimension" />
+
+    <!-- TODO: these are example attributes -->
+    <attr name="formatter" format="string" />
+    <attr name="horizPaddings" format="string" />
+    <attr name="vertPaddings" format="string" />
+
+    <attr name="formatter2" format="enum">
+        <enum name="IndianRupees" value="0" />
+        <enum name="CreditCardNumber" value="1" />
+    </attr>
+
+</resources>

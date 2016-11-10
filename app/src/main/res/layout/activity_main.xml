@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="is.uncommon.layoutinflationtalk.MainActivity"
+    tools:ignore="MissingPrefix">
+
+    <!-- Attribute value defined inline. -->
+    <EditText
+        formatter="CreditCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_money" />
+
+    <!-- Attribute value defined in the associated style. -->
+    <!--<EditText
+        style="@style/BatmanIpsumTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hint_money" />-->
+
+    <!-- Attribute value defined in the associated theme. -->
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:hint="@string/hint_money"-->
+        <!--android:theme="@style/BatmanIpsumTheme" />-->
+
+    <!-- Attribute value defined in the Activity theme. -->
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hint_money" />-->
+</LinearLayout>
